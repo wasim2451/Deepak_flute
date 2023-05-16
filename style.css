@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', cursive;
+    }
+#title{
+    position:absolute;
+    z-index:100;
+    height:80px;
+    width: 100%;
+}
+#carousal{
+    z-index:2;
+    position: relative;
+
+}
+#products{
+    background-color: #E8D5C4;
+    padding:0% 10% 0%;
+}
+@media(max-width:1024px){
+    #title{
+        height:50px;
+        width: 100%;  
+    }   
+    .depak-img{
+        width:130px;
+    }
+    .navbar{
+        padding:0px;
+        z-index:3;
+        width: 100%;
+        height: auto;
+        }
+    .ul-bg{
+        text-align:center; 
+        }
+
+}
+.nav-link{
+    font-size:1rem; 
+}
+.fa-sharp{
+    padding-left: 10px;
+}
+.fa-sharp:hover,.nav-link:hover{
+    color: greenyellow !important
+} 
+ .navbar{
+    width: 100%;
+    /* height: 50px; */
+    padding-top: 0px;
+    padding-bottom:0px;
+    backdrop-filter: blur(5px);
+ }
+.container-fluid{
+    padding-left:4%;
+    padding-right:5%;
+}
+.nav-item{
+    font-size:1rem;
+    font-weight: 600;
+    color: #fff;
+}
+.nav-item>a>img{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.Heading{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 4.5rem;
+    text-align:left;
+    display: block; 
+    left: 5%;
+    top: 15%;
+    right:30%;    
+}
+.small-lines1{
+    font-family: 'Allura', cursive;
+    position:absolute;
+    color: #fff;
+    top: 40%;
+    left: 5%;
+    display: inline-block;
+    font-size:2.5rem ;
+    text-align:left ;
+
+}
+@media (max-width:1024px){
+    .Heading{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        font-size: 1.4rem;
+        text-align: left;
+        display: inline-block; 
+        left: 5%;
+        top: 25%;
+        right: 19%; 
+    }
+    .small-lines1{
+        font-family: 'Allura', cursive;
+        position:absolute;
+        color: #fff;
+        top: 50%;
+        left: 5%;
+        display: inline-block;
+        font-size:1rem ;
+        text-align:left ;
+        
+    }
+    
+
+}
+.Image{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.Heading2{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 4.5rem;
+    text-align:left;
+    display: block; 
+    left: 5%;
+    top: 15%;
+    right: 9%;    
+}
+.small-lines2{
+    font-family: 'Allura', cursive;
+    position:absolute;
+    color: #fff;
+    top: 40%;
+    left: 5%;
+    display: inline-block;
+    font-size:2.5rem ;
+    text-align:left ;
+    padding-top: 5px;
+}
+@media (max-width:1024px){
+    .Heading2{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        font-size: 1.4rem;
+        text-align: left;
+        display: inline-block; 
+        left: 5%;
+        top: 20%;
+        right: 9%; 
+    }
+    .small-lines2{
+        font-family: 'Allura', cursive;
+        position:absolute;
+        color: #fff;
+        top: 60%;
+        left: 5%;
+        display: inline-block;
+        font-size:1rem ;
+        text-align:left ;
+    }
+}
+.Image2{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.Image3{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    
+}
+.Heading3{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 4.5rem;
+    text-align:left;
+    display: block; 
+    left: 5%;
+    top: 15%;
+    right: 9%;    
+}
+.small-lines3{
+    font-family: 'Allura', cursive;
+    position:absolute;
+    color: #fff;
+    top: 40%;
+    left: 5%;
+    display: inline-block;
+    font-size:2.5rem ;
+    text-align:left ;
+}
+@media (max-width:1024px){
+    .Heading3{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        font-size: 1.4rem;
+        text-align: left;
+        display: inline-block; 
+        left: 5%;
+        top: 22%;
+        right: 9%; 
+    }
+    .small-lines3{
+        font-family: 'Allura', cursive;
+        position:absolute;
+        color: #fff;
+        top: 65%;
+        left: 5%;
+        display: inline-block;
+        font-size:1rem ;
+        text-align:left ;
+    }
+}
+.Heading,.Heading2,.Heading3{
+    padding-left: 10px;
+}
+@media (max-width:1024px){
+    .Heading1,.Heading2,.Heading3{
+        padding-left: 10px;
+    }
+    .small-lines1,.small-lines2,.small-lines3{
+        padding-left: 10px;
+      
+    }
+}
+.small-lines1,.small-lines2,.small-lines3{
+    padding-left: 10px;
+}
+.card-text{
+    font-weight: 900;
+    color: #FF8400;
+    display: inline-block;
+    font-size :16px !important;
+}
+.card-text>del{
+    color: black;
+    
+}
+.card-button{
+    display: inline-block;
+    font-size: 14px;
+    padding:1% 5% 1% 5%;
+    border:solid 2px #d84b2f;
+    background-color: #E74646;
+    color: #fff;
+    border-radius: 30px;
+    margin-left:10%;
+}
+.card-button:hover{
+    background-color: #fff;
+    color: #E74646;
+    font-weight: 600;
+}
+.card-title{
+    font-size:medium;
+    font-weight:600;
+}
+.card{
+    width:20rem;
+    padding:5%;
+    margin-bottom: 10%;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.no-4{
+    width: 22rem;
+}
+@media (min-width: 280px) and (max-width: 1024px) {
+
+    .card-button{
+        display: block;
+        font-size: 14px;
+        padding:1%;
+        margin-top: 5%;
+        border:solid 2px #d84b2f;
+        background-color: #E74646;
+        color: white;
+    }
+    .card-text{
+        font-weight: 900;
+        color: #FF8400;
+        display: inline;
+        padding-right:0%;
+        font-size: smaller;
+        text-align: center;
+        padding-left: 15px;
+    }
+    .card-text>del{
+        display: inline;
+        color: black;
+    }
+    .card-title{
+        font-size: 15px;
+        text-align: center;
+        
+    }
+
+}
+.img-card{
+    border-radius: 10%;
+} 
+.card:hover{
+    transform:scale(1.1);
+}
+.product-heading{
+    padding-top: 45px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.product-para{
+    text-align: center;
+    font-size: 1rem;
+    padding:0 10% 0 10% ;
+    padding-bottom: 15px;
+}
+.icon1{
+    padding: -100px 0px -100px 0 ;
+}
