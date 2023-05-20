@@ -18,24 +18,19 @@
     background-color: #E8D5C4;
     padding:0% 10% 0%;
 }
+.depak-img{
+    margin-left: 25%;
+}
 @media(max-width:1024px){
     #title{
-        height:50px;
+        height:1000px;
         width: 100%;  
     }   
     .depak-img{
+        margin-left: 13px;
         width:130px;
     }
-    .navbar{
-        padding:0px;
-        z-index:3;
-        width: 100%;
-        height: auto;
-        }
-    .ul-bg{
-        text-align:center; 
-        }
-
+    
 }
 .nav-link{
     font-size:1rem; 
@@ -44,18 +39,18 @@
     padding-left: 10px;
 }
 .fa-sharp:hover,.nav-link:hover{
-    color: greenyellow !important
+    color: #F9D949 !important;
 } 
  .navbar{
     width: 100%;
-    /* height: 50px; */
+    height: 50px;
     padding-top: 0px;
     padding-bottom:0px;
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
  }
 .container-fluid{
-    padding-left:4%;
-    padding-right:5%;
+    padding-left:0%;
+    padding-right:0%;
 }
 .nav-item{
     font-size:1rem;
@@ -246,6 +241,7 @@
     
 }
 .card-button{
+    font-weight: 700;
     display: inline-block;
     font-size: 14px;
     padding:1% 5% 1% 5%;
@@ -267,14 +263,10 @@
 .card{
     width:20rem;
     padding:5%;
-    margin-bottom: 10%;
+    margin-bottom:5%;
     border: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease;
-}
-
-.no-4{
-    width: 22rem;
+    transition: transform 0.3s ease;
 }
 @media (min-width: 280px) and (max-width: 1024px) {
 
@@ -286,6 +278,7 @@
         border:solid 2px #d84b2f;
         background-color: #E74646;
         color: white;
+        margin-right: 15px;
     }
     .card-text{
         font-weight: 900;
@@ -305,6 +298,17 @@
         text-align: center;
         
     }
+    .navbar{
+        padding:0px;
+        z-index:3;
+        width: 100%;
+        height:auto;
+        }
+    .ul-bg{
+        background-color:rgb(255, 115, 29,0.75);
+        width: 100%;
+        text-align:right;
+        }
 
 }
 .img-card{
@@ -323,7 +327,4 @@
     font-size: 1rem;
     padding:0 10% 0 10% ;
     padding-bottom: 15px;
-}
-.icon1{
-    padding: -100px 0px -100px 0 ;
 }
