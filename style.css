@@ -400,13 +400,15 @@ h4{
     }
     
 }
-@media screen and (max-width:380px) {
+@media screen and (max-width:430px) {
     #footer{
         flex-direction: column;
         align-content: flex-start;
         justify-content:center;
     }
     .sub-footer>div{
-        font-size: small;
+        font-size:small;
+        padding-left:10% ;
+        padding-right:10%;
     }
 }
