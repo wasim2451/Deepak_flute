@@ -16,7 +16,7 @@
 }
 #products{
     background-color: #E8D5C4;
-    padding:0% 10% 0%;
+    padding:0% 10% 5%;
 }
 .depak-img{
     margin-left: 25%;
@@ -268,7 +268,7 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
 }
-@media (min-width: 280px) and (max-width: 1024px) {
+@media (min-width: 280px) and (max-width: 768px) {
 
     .card-button{
         display: block;
@@ -327,4 +327,86 @@
     font-size: 1rem;
     padding:0 10% 0 10% ;
     padding-bottom: 15px;
+}
+#footer{
+    color: #fff;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    background-color: #2A2F4F;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#footer>div{
+    font-size: large;
+}
+h4{
+    font-weight: 800;
+}
+
+.flexi{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.links{
+    text-decoration: none;
+    color: #fff;
+}
+.links:hover{
+    font-weight: 600;
+    color: #F7D060;
+}
+.image-part{
+    display:inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: space-between;
+}
+.sub-footer{
+    background-color: #917FB3;
+    padding-block: 10px;
+}
+.sub-footer>div{
+    flex-wrap: wrap;
+    padding-top: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-weight:600 ;
+    
+}
+@media screen and (max-width:768px) {
+    #footer{
+        gap: 30px;
+    }
+    #footer>div{
+        font-size: small;
+    }
+    .flexi{
+        font-size: small;
+    }
+    .image-part{
+        gap:15px;
+    }
+    
+}
+@media screen and (max-width:380px) {
+    #footer{
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content:center;
+    }
+    .sub-footer>div{
+        font-size: small;
+    }
 }
