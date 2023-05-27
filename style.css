@@ -352,7 +352,7 @@ h4{
     width:45%;
     padding:10px;
     box-sizing:border-box;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     
     }
     .container-div-m{
@@ -366,46 +366,53 @@ h4{
         width: 100%;
         border-radius: 10px 10px 0 0;
         padding: 1px;
-        background-color:#FFABAB;
+        background-color:#F8E8EE;
     }
     .div-img-m{
         border-radius:10px;
     }
     .box-m{
-        background-color:#FFABAB;
+        background-color:#F8E8EE;
         border-radius: 10px;
     }
     .card-end-m{
-        display: inline-flex;
+        display:inline-flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content:space-between;
     }
     .button-link-m{
         display: inline-flex;
         width: 100%;
         text-decoration: none;
     }
-    .button-m{
-        width: 100%;
-    }
     .label-m{
-        margin-right: 25px;
+        margin-top: 2px;
+        font-size: 15px;
+        margin-right: 20px;
         font-weight: 900;
         color: #FF8400;
     }
     .mrp-m{
+        font-size: 15px;
         font-weight: 800;
     }
     .name-m{
+       display: flex;
        padding-block: 2px;
-        font-weight: 700;
-        font-size: 13px;
-        text-align: center;
+       padding-left:5px;
+       padding-right: 5px;
+       font-weight: 700;
+       font-size: 13px;
+       text-align: center;
     }
     .button-m{
-        background-color: #E74646;
-        color: #fff;
-        border-radius:4.5px;
+        font-size:14px;
+        font-weight: 600;
+        width: 100%;
+        border: 2px solid #FF8400;
+        color: #FF8400;
+        border-radius:10px;
+        background-color: #fff;
     }
 
 
