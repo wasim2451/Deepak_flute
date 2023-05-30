@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -20,6 +21,21 @@
 }
 .depak-img{
     margin-left: 25%;
+}
+.cart{
+    position: absolute;
+    left: 69.5%;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.navbar-toggler-icon{
+    width: 25px;
+    height: 25px;
+}
+@media screen and (max-width:1000px){
+    .cart{
+      position: inherit;
+    }
 }
 @media(max-width:1024px){
     #title{
@@ -110,6 +126,7 @@
     
 
 }
+
 .Image{
     object-fit: cover;
     object-position: center;
@@ -238,7 +255,7 @@
         height:auto;
         }
     .ul-bg{
-        background-color:rgb(255, 115, 29,0.75);
+        background-color:rgba(0, 0, 0,0.5);
         width: 100%;
         text-align:right;
         }
@@ -339,6 +356,10 @@ h4{
         padding-right:10%;
     }
 }
+#btn{
+ 
+
+}
 
 /* Styling Cards */
 @media screen and (max-width:460px){
@@ -388,7 +409,7 @@ h4{
     .label-m{
         margin-top: 2px;
         font-size: 15px;
-        margin-right: 20px;
+        margin-right: 15px;
         font-weight: 900;
         color: #FF8400;
     }
